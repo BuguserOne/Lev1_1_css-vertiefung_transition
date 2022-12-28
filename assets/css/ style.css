@@ -1,0 +1,19 @@
+header {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transition {
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+.transition:hover{
+    width: 100%;
+}
